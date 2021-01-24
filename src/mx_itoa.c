@@ -1,4 +1,4 @@
-#include "../inc/utils.h"
+#include "utils.h"
 
 char *mx_itoa(int n) {
 	int size = 1;

@@ -1,4 +1,4 @@
-#include "../inc/list.h"
+#include "list.h"
 
 int mx_list_size(t_list *list) {
     int count;

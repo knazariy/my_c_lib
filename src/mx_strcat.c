@@ -1,4 +1,4 @@
-#include "../inc/strings.h"
+#include "strings.h"
 
 char *mx_strcat(char *restrict s1, const char *restrict s2) {
 	int i = 0;

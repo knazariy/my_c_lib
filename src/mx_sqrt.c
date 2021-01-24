@@ -1,4 +1,4 @@
-#include "../inc/utils.h"
+#include "utils.h"
 
 int mx_sqrt(int x) {
     int temp;

@@ -1,4 +1,4 @@
-#include "../inc/utils.h"
+#include "utils.h"
 
 void mx_print_unicode(wchar_t c) {
     char str[5] = {0};

@@ -1,4 +1,4 @@
-#include "../inc/utils.h"
+#include "utils.h"
 
 void mx_printint(int n) {
 	int size = 1;

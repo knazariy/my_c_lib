@@ -1,4 +1,4 @@
-#include "../inc/utils.h"
+#include "utils.h"
 
 void swap(int *a, int *b) {
     int t = *a;

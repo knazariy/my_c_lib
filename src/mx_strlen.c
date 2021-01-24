@@ -1,4 +1,4 @@
-#include "../inc/strings.h"
+#include "strings.h"
 
 int mx_strlen(const char *s) {
 	int i = 0;

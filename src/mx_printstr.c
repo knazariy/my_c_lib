@@ -1,4 +1,4 @@
-#include "../inc/utils.h"
+#include "utils.h"
 
 int mx_strlen(const char *s);
 

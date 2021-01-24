@@ -1,4 +1,4 @@
-#include "../inc/strings.h"
+#include "strings.h"
 
 char *mx_strncpy(char *dst, const char *src, int len) {
 	int i = 0;

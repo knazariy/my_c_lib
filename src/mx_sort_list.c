@@ -1,4 +1,4 @@
-#include "../inc/list.h"
+#include "list.h"
 
 void swap_data(void **a, void **b) {
     void *temp = *a;

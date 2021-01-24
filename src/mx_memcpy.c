@@ -1,4 +1,4 @@
-#include "../inc/memory.h"
+#include "memory.h"
 
 void *mx_memcpy(void *restrict dst, const void *restrict src, size_t n) {
     char *p_dst = (char *)dst;

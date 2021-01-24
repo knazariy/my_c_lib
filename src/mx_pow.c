@@ -1,4 +1,4 @@
-#include "../inc/utils.h"
+#include "utils.h"
 
 double mx_pow(double n, unsigned int pow) {
     double result = 1;

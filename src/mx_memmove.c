@@ -1,4 +1,4 @@
-#include "../inc/memory.h"
+#include "memory.h"
 
 void *mx_memmove(void *dst, const void *src, size_t len) {
     char *p_dst = (char *)dst;

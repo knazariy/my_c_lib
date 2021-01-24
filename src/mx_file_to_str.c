@@ -1,4 +1,4 @@
-#include "../inc/strings.h"
+#include "strings.h"
 
 char *mx_file_to_str(const char *filename) {
     char buf[80];

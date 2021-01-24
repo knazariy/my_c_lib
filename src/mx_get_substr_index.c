@@ -1,4 +1,4 @@
-#include "../inc/strings.h"
+#include "strings.h"
 
 int mx_get_substr_index(const char *str, const char *sub) {
     bool is_sub = false;

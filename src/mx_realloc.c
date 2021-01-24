@@ -1,4 +1,4 @@
-#include "../inc/memory.h"
+#include "memory.h"
 
 void *mx_realloc(void *ptr, size_t size) {
     void *result;

@@ -1,4 +1,4 @@
-#include "../inc/utils.h"
+#include "utils.h"
 
 void mx_print_strarr(char **arr, const char *delim) {
     if (!arr || !delim) return;

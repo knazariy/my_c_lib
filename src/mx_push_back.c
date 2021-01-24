@@ -1,4 +1,4 @@
-#include "../inc/list.h"
+#include "list.h"
 
 void mx_push_back(t_list **list, void *data) {
     t_list *head = *list;

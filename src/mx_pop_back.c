@@ -1,4 +1,4 @@
-#include "../inc/list.h"
+#include "list.h"
 
 void mx_pop_back(t_list **list) {
     t_list *head;

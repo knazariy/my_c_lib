@@ -1,4 +1,4 @@
-#include "../inc/strings.h"
+#include "strings.h"
 
 bool mx_isspace(char c) {
 	for (int i = 9; i <= 13; i++)

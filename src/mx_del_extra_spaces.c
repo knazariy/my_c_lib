@@ -1,4 +1,4 @@
-#include "../inc/strings.h"
+#include "strings.h"
 
 int calc_len_clean(const char *s) {
 	int count = 0;

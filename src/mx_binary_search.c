@@ -1,4 +1,4 @@
-#include "../inc/utils.h"
+#include "utils.h"
 
 int mx_binary_search(char **arr, int size, const char *s, int *count) {
         int left_index = 0;

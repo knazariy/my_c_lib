@@ -1,4 +1,4 @@
-#include "../inc/strings.h"
+#include "strings.h"
 
 char *mx_strjoin(char const *s1, char const *s2) {
     if (!s1 && !s2) {
