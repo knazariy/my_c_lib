@@ -9,6 +9,10 @@ void mx_printint(int n) {
 		mx_printstr("-2147483648");
 		return;
 	}
+	if (n == 2147483647) {
+		mx_printstr("2147483647");
+		return;
+	}
 	if (n < 0) {
 		is_negative = 1;
 		n *= -1;

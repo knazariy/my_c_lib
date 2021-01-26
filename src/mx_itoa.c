@@ -1,4 +1,4 @@
-#include "utils.h"
+#include "libmx.h"
 
 char *mx_itoa(int n) {
 	int size = 1;
@@ -6,6 +6,14 @@ char *mx_itoa(int n) {
 	int is_negative;
 	char *result;
 
+	if (n == -2147483648) {
+		result = mx_strdup("-2147483648");
+		return result;
+	}
+	if (n == 2147483647) {
+		result = mx_strdup("2147483647");
+		return result;
+	}
 	if (n < 0) {
 		is_negative = 1;
 		n *= -1;
@@ -25,3 +33,4 @@ char *mx_itoa(int n) {
         result[i + is_negative] = digits[i] + 48;
 	return result;
 }
+
