@@ -6,9 +6,9 @@ void *mx_realloc(void *ptr, size_t size) {
     if (!ptr) {
         result = malloc(size);
     } else {
-        if (malloc_usable_size(ptr) < size) {
+        if (malloc_size(ptr) < size) {
             result = malloc(size);
-            mx_memcpy(result, ptr, malloc_usable_size(ptr));
+            mx_memcpy(result, ptr, malloc_size(ptr));
             free(ptr);
         } else {
             result = ptr;
