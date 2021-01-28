@@ -1,4 +1,4 @@
-#include "strings.h"
+#include "libmx.h"
 
 int mx_strncmp(const char *s1, const char *s2, int n) {
 	int i = 0;

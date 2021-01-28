@@ -1,4 +1,4 @@
-#include "utils.h"
+#include "libmx.h"
 
 char *mx_strnew(const int size) {
 	if (size < 1) {

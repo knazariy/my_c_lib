@@ -1,4 +1,4 @@
-#include "strings.h"
+#include "libmx.h"
 
 char *mx_strtrim(const char *str) {
 	int i;

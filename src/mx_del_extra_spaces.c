@@ -1,4 +1,4 @@
-#include "strings.h"
+#include "libmx.h"
 
 int calc_len_clean(const char *s) {
 	int count = 0;

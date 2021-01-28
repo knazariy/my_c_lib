@@ -1,4 +1,4 @@
-#include "utils.h"
+#include "libmx.h"
 
 int mx_bubble_sort(int *arr, int size) {
     int temp;

@@ -1,4 +1,4 @@
-#include "strings.h"
+#include "libmx.h"
 
 char **mx_strsplit(char const *s, char delim) {
 	int word_count = mx_count_words(s, delim);

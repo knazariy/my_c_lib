@@ -1,4 +1,4 @@
-#include "strings.h"
+#include "libmx.h"
 
 int mx_get_char_index(const char *str, char c) {
     if (!str) return -2;

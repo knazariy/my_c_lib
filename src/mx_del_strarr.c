@@ -1,4 +1,4 @@
-#include "strings.h"
+#include "libmx.h"
 
 void mx_del_strarr(char ***arr) {
 	if (!arr)

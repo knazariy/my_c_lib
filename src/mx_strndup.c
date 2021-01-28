@@ -1,4 +1,4 @@
-#include "strings.h"
+#include "libmx.h"
 		
 char *mx_strndup(const char *str, size_t n) {
 	if (!str) return NULL;
