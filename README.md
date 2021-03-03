@@ -14,9 +14,23 @@ Find the functions you need in the __Stucture__ part.
 
 - Utils: 
 
-```void mx_printchar(char c);
+```int mx_atoi(const char *str);
+
+int mx_atol(const char *str);
+
+bool mx_file_exists(const char *filename);
+
+bool mx_file_is_empty(const char *filename);
+
+bool mx_isalpha(int c);
+
+bool mx_isdigit(int c);
+
+void mx_printchar(char c);
 
 void mx_print_unicode(wchar_t c);
+
+void mx_printerr(const char *s);
 
 void mx_printstr(const char *str);
 
@@ -51,11 +65,17 @@ int mx_quicksort(int *arr, int left, int right);
 
 - Strings:
 
-```int mx_strlen(const char *s);
+```bool mx_contains_str(const char *needle, const char **str);
+
+int mx_get_str_index(const char *needle, const char **str);
+
+int mx_strlen(const char *s);
 
 void mx_printstr(const char *s);
 
 void mx_swap_char(char *s1, char *s2);
+
+char **mx_strarr_new(const int size);
 
 char *mx_strcpy(char *dst, const char *src);
 
